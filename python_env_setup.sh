@@ -3,6 +3,7 @@
 # User should read up on the following to know how to use it.
 # DOCS: See each section:
 # AUTHOR: Jude Sauve <sauve031@umn.edu>
+# EDITOR: Michael Lucke <lucke096@umn.edu>
 # VERSION 1.1 : LAST_CHANGED 2019-11-12
 # LICENSE: MIT
 
@@ -225,7 +226,7 @@ rm $TMP_FILE
 echo ""
 echo ""
 echo "FURTHER INSTRUCTIONS:"
-echo "You should clean up / order your .bashrc, don't let it get messy"
+echo "You should clean up / order your .profile or .bashrc, don't let it get messy"
 echo "To install python, look up 'pyenv', or enter it in the terminal, 'pyenv versions'"
 echo "Install a python version using 'pyenv install VERSION' Or use -l to list options"
 echo "The default in the bash script is 3.5.7, because it should be compatible with all other users"
