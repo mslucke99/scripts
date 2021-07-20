@@ -58,7 +58,8 @@ touch $TMP_FILE
   # DOCS: https://virtualenv.pypa.io/en/latest/
   # This and pip are the only things installed globally! Keep clean!
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-  sudo apt-get install python-pip
+  sudo apt update
+  sudo apt-get install python3-pip
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   curl https://bootstrap.pypa.io/get-pip.py -o ~/get-pip.py
   python3 ~/get-pip.py
