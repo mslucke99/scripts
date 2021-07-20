@@ -25,6 +25,7 @@
 # or git branch. These were also done in here; it's called the PS1. To change this, change it in your
 # ~/.bashrc file. If it doesn't work, make an issue.
 
+echo "[debug] running python environment setup script"
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
   RC_FILE=~/.bashrc
   echo "Installing for linux, installing configuration to: $RC_FILE"
@@ -60,10 +61,10 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
   sudo apt-get install python-pip
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   curl https://bootstrap.pypa.io/get-pip.py -o ~/get-pip.py
-  python ~/get-pip.py
+  python3 ~/get-pip.py
   rm ~/get-pip.py
 fi
-pip install --user virtualenv
+pip3 install --user virtualenv
 
 cat <<EXCL >> $TMP_FILE
 
