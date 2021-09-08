@@ -11,7 +11,7 @@ bash python_env_setup.sh
 wait
 
 echo "[debug] running mindmeld setup script"
-pyenv install 3.6.0
+pyenv install 3.6.2
 cd mindmeld_ws
 cat <<EXCL >> ./.envrc
 # -*- mode: sh; -*-
