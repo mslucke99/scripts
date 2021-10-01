@@ -1,3 +1,6 @@
+# I may or may not maintain these. These may work as they are, but may require some updates. 
+While I don't know of anything that could go wrong with these scripts as of writing, please use at your own risk.
+
 # scripts
 Scripts and settings
 
